@@ -1,0 +1,31 @@
+body {
+  background-color: #ffe692;
+}
+
+.container .row {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.container .row .card {
+  margin: 20px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  border-radius: 10px !important;
+}
+
+.container .row .card img {
+  border-radius: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.container .row .card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: .3s;
+  transition: .3s;
+  -webkit-box-shadow: 0px 0px 8px 3px #a0a0a0;
+          box-shadow: 0px 0px 8px 3px #a0a0a0;
+}
+/*# sourceMappingURL=style.css.map */
